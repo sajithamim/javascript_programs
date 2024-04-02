@@ -32,15 +32,9 @@ const people = [
 ];
 
 // what is the average income of all the people in the array
+const average = people.reduce((accumulator, person) => accumulator + person.salary, 0) / people?.length
 
-const average = (people) => {
-  return (
-    people.reduce((accumulator, person) => accumulator + person.salary, 0) /
-    people?.length
-  );
-};
-
-console.log(average(people));
+console.log("what is the average income of all the people in the array",average);
 
 //  who are the people currently older than 30
 
