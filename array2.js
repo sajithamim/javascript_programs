@@ -3,7 +3,7 @@ const orders = [
         { productId: '123', price: 55 },
         { productId: '234', price: 30 },
     ]},
-    { orderId: '234', customerId: '234', deliveryDate: '01-02-2020', delivered: false, items: [
+    { orderId: '234', customerId: '234', deliveryDate: '01-02-2020', delivered: true, items: [
         { productId: '234', price: 30 },
     ]},
     { orderId: '345', customerId: '234', deliveryDate: '05-01-2020', delivered: true, items: [
@@ -11,6 +11,10 @@ const orders = [
         { productId: '678', price: 80 },
     ]},
     { orderId: '456', customerId: '345', deliveryDate: '12-01-2020', delivered: true, items: [
+        { productId: '789', price: 12 },
+        { productId: '890', price: 90 },
+    ]},
+    { orderId: '234', customerId: '345', deliveryDate: '12-01-2020', delivered: true, items: [
         { productId: '789', price: 12 },
         { productId: '890', price: 90 },
     ]},
@@ -37,3 +41,5 @@ console.log("Problem 4:", orders.some(e => e.orderId == '123'))
 // 5) Have any products with an id of 123 been sold?
 
 console.log("Problem 5,", orders.some(e => e.items.find(i => i.productId == '123')))
+
+
