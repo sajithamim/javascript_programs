@@ -1,5 +1,15 @@
-const array = [1, 9,55,87,47,10955]
+// Write a fn that takes an array of numbers and return maximum numbr in arary
 
-console.log("LArgest number", array.reduce((pre,cur) => pre > cur ? pre :cur) )
+//  First method 
+// const maxNum = (arr) => {
+//     return arr.reduce((prev, curr) => prev > curr ? prev : curr)
+// }
 
-console.log("smallest number", array.reduce((pre,cur) => pre < cur ? pre :cur) )
+
+//  Second method 
+const maxNum = (arr) => {
+    return Math.max(...arr)
+}
+
+console.log("Maximum number", maxNum([1,9,125, 485]))
+console.log("Maximum number", maxNum([-10,-90,-125, -485]))
