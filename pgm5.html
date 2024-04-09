@@ -1,0 +1,20 @@
+<!-- How to define a class with properties and methods in Javascript -->
+
+<script>
+    class Car {
+        constructor(model, name){
+            this.model =model;
+            this.name = name;
+        }
+
+        start(){
+            console.log(`Name of car: ${this.name}`);
+        }
+    }
+    let bmw = new Car(620, 'Sports Edition');
+    bmw.start();
+</script>
+
+<!-- simple JavaScript script that defines a class Car and creates an instance of it named bmw. The Car class has a constructor that takes model and name parameters and sets them as properties of the class instance. Additionally, there's a start method defined within the Car class, which logs the name of the car to the console.
+
+When you create a new instance of Car with let bmw = new Car(620, 'Sports Edition'); and call the start method using bmw.start();, it will log 'Name of car: Sports Edition' to the console. However, it's worth noting that you're passing 620 as the model parameter when creating the bmw instance. Normally, model numbers are strings or integers representing the specific model of the car, whereas 620 seems like an unusual value for a model na -->
