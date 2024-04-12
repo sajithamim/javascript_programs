@@ -48,11 +48,14 @@ setTimeout(() => {
 
 // ////////////////////////////////////////////////////////////////////////////
 
-console.log("Output based pblm 5", 2 + '2');
-console.log("Output based pblm 5", 2 - '2');
-console.log("Output based pblm 5", '4' - '2');
-console.log("Output based pblm 5", '2' - 2);
-
+console.log("Output based pblm 5 a", 2 + '2');
+console.log("Output based pblm 5 b", 2 - '2');
+console.log("Output based pblm 5 c", '4' - '2');
+console.log("Output based pblm 5 d", '2' - 2);
+console.log("Output based pblm 5 e", 1 + +'2' + 2); 
+console.log("Output based pblm 5 f", 1 + '2' + +"2"); 
+console.log("Output based pblm 5 g", {} === {}) 
+console.log("Output based pblm 5 h", {} == {}) 
 // ////////////////////////////////////////////////////////////////////////////
 // Difference between map and forEach
 
@@ -71,3 +74,32 @@ console.log("forEachMethod", forEachMethod);
 
  console.log("Output based pblm 6",typeof a)
  console.log("Output based pblm 6",typeof b)
+//  o/p Output based pblm 6 undefined
+// Output based pblm 6 number
+
+
+ // ////////////////////////////////////////////////////////////////////////////
+
+ function foo(){
+    return 
+    {
+        name: 'Anil'
+    }
+ }
+
+ console.log(" Output based pblm  7", foo())
+
+//  o/p undefined(note: return{} must be in a single line)
+// ////////////////////////////////////////////////////////////////////////////
+function test(){
+    function foo(){
+        return 100;
+    }
+    return foo();
+    function foo(){
+        return 10;
+    }
+}
+console.log("Output based pblm  8", test())
+
+// Output based pblm  8 10 (Hoisting)

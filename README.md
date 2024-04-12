@@ -14,7 +14,16 @@
 # 7. Write a fun called isPowerOfTwo that takes an integer num as input and returns true if num is a power of two and false otherwise
 # 8. Splice method examples
 # 9. What is fn declaration
-# 10. Imp question
+# 10. Output based questions
 # 11. how to convert first letter of string in uppercase
 # 12. how to print the table of any user defined number
 # 13. Program to Check Armstrong Number in JavaScript
+# 14. Object copy, Deep copy & shallow copy
+# 15. Sort an array without using sort method
+# 16. 
+#    Get a list of the orders for the customer with the ID 234 that have not been delivered
+#    Create a new property on each order with the total price of items ordered.
+#    Have all the orders been delivered?
+#    Has the customer with ID '123' made any orders?
+#    Have any products with an id of 123 been sold?
+# 17. Write a fn arrayAreEqual which returns true if array are equal else false (ie: contains the same elem in same order)
