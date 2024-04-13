@@ -1,6 +1,6 @@
 // Write a program to get the extension of a file.
-
-const getFileExtension = (str) =>{
-    return str.slice(str.lastIndexOf('.'));
+function getExtension(nameOfFile){
+   return nameOfFile.slice(nameOfFile.lastIndexOf('.'))
 }
-console.log(getFileExtension("webconfig.hmtl"))
+
+console.log("Get extension", getExtension("index.html"))

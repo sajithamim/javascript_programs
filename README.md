@@ -2,7 +2,7 @@
 
 # 1. Writ a JS program to check 2 numbers and return true if one of the number is 100 or sum is 100
 # 2. Write a program to get the extension of a file.
-# 3. Get the words that have more than 8 letters.
+# 3. Get the words that have more than 8 letters. ()
 # 4. what is the average income of all the people in the array?
 #    who are the people currently older than 30?
 #    Get a list of people's full name.
@@ -27,3 +27,11 @@
 #    Has the customer with ID '123' made any orders?
 #    Have any products with an id of 123 been sold?
 # 17. Write a fn arrayAreEqual which returns true if array are equal else false (ie: contains the same elem in same order)
+# 18. Reverse a array without using reverse method
+# 19. Reverse a string without using reverse method
+# 20. 
+#    What is Madison Marshall's user id?
+#    Who wrote the first comment (assuming the first comment is in position 0 of the comments array)
+#    Which user commented 'OK great thanks'?
+#    Add the user's first and last name to each comment in the comments array
+#    Get a list of the users who haven't commented
