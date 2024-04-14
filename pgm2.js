@@ -1,6 +1,6 @@
 // Write a program to get the extension of a file.
-function getExtension(nameOfFile){
-   return nameOfFile.slice(nameOfFile.lastIndexOf('.'))
-}
 
-console.log("Get extension", getExtension("index.html"))
+function findExtension(str){
+  return str.slice(str.lastIndexOf("."));
+}
+console.log(findExtension("index.html"))

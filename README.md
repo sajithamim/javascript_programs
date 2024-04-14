@@ -2,8 +2,8 @@
 
 # 1. Writ a JS program to check 2 numbers and return true if one of the number is 100 or sum is 100
 # 2. Write a program to get the extension of a file.
-# 3. Get the words that have more than 8 letters. ()
-# 4. what is the average income of all the people in the array?
+# 3. Get the words that have more than 8 letters. 
+# 4. what is the average income of all the people in the array? ()
 #    who are the people currently older than 30?
 #    Get a list of people's full name.
 #    Add a new object full name to the existing array.
@@ -35,3 +35,4 @@
 #    Which user commented 'OK great thanks'?
 #    Add the user's first and last name to each comment in the comments array
 #    Get a list of the users who haven't commented
+# 21. Remove duplicates from given array

@@ -36,37 +36,21 @@ const average = people.reduce((accumulator, person) => accumulator + person.sala
 
 console.log("what is the average income of all the people in the array",average);
 
-//  who are the people currently older than 30
-
-console.log(
-  "who are the people currently older than 30",
-  people.filter(
-    (person) =>
-      new Date().getFullYear() - new Date(person.dob).getFullYear() > 20
-  )
-);
+//  who are the people currently older than 35
+console.log(people.filter((people) => new Date(). getFullYear() - new Date(people?.dob).getFullYear() > 35))
 
 // Get a list of people's full name
 
-console.log(
-  "Get a list of people's full name ",
-  people.map((person) => person?.firstName + " " + person?.lastName)
-);
-console.log(
-  "Add a new object full name to the existing array ",
-  people.map((person) => ({
-    ...person,
-    fullName: `${person?.firstName} ${person?.lastName}`,
-  }))
-);
+console.log("List", people.map((list) => list?.firstName + " " + list?.lastName))
+
+// Add a new object full name to the existing array 
+
+console.log("New object added", people.map((people) => ({...people, fullName: people.firstName + " " + people?.lastName})))
 
 // Sort Array
 
-console.log(
-  "sort array",
-  people.sort((a, b) => new Date(b.dob) - new Date(a.dob))
-);
+console.log("Sort", people.sort((a,b) => new Date(b.dob) - new Date(a.dob)))
 
 // how many person in each department
 
-console.log("Department Persons", people.reduce((accumulator, person) => ({ ...accumulator, [person.department]: accumulator[person.department] + 1 || 1}),{}))
+console.log("Count of persons in each dept", people.reduce((accumulator, person) => ({...accumulator,[person.department]: accumulator[person.department] + 1 || 1}), {}))
