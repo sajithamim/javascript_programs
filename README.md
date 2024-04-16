@@ -3,14 +3,14 @@
 # 1. Writ a JS program to check 2 numbers and return true if one of the number is 100 or sum is 100
 # 2. Write a program to get the extension of a file.
 # 3. Get the words that have more than 8 letters. 
-# 4. what is the average income of all the people in the array? ()
+# 4. what is the average income of all the people in the array? 
 #    who are the people currently older than 30?
 #    Get a list of people's full name.
 #    Add a new object full name to the existing array.
 #    Sort Array.
 #    how many person in each department?
 # 5. How to define a class with properties and methods in Javascript?
-# 6. Write a program to convert array to an object.
+# 6. Write a program to convert array to an object.()
 # 7. Write a fun called isPowerOfTwo that takes an integer num as input and returns true if num is a power of two and false otherwise
 # 8. Splice method examples
 # 9. What is fn declaration
@@ -36,3 +36,7 @@
 #    Add the user's first and last name to each comment in the comments array
 #    Get a list of the users who haven't commented
 # 21. Remove duplicates from given array
+# 22. How to find the count of duplicates in an array?
+# 23. How to find the missing number in a given integer array of 1 to 10.
+# 24. Write a fn called calculateAvg that takes an array of numbers as input and returns the avg of those numbers.
+
