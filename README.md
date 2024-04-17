@@ -27,8 +27,8 @@
 #    Has the customer with ID '123' made any orders?
 #    Have any products with an id of 123 been sold?
 # 17. Write a fn arrayAreEqual which returns true if array are equal else false (ie: contains the same elem in same order)
-# 18. Reverse a array without using reverse method
-# 19. Reverse a string without using reverse method
+# 18. Reverse a array without using reverse method ()
+# 19. Reverse a string without using reverse method ()
 # 20. 
 #    What is Madison Marshall's user id?
 #    Who wrote the first comment (assuming the first comment is in position 0 of the comments array)
@@ -37,6 +37,8 @@
 #    Get a list of the users who haven't commented
 # 21. Remove duplicates from given array
 # 22. How to find the count of duplicates in an array?
-# 23. How to find the missing number in a given integer array of 1 to 10.
-# 24. Write a fn called calculateAvg that takes an array of numbers as input and returns the avg of those numbers.
+# 23. How to find the missing number in a given integer array of 1 to 10. ()
+# 24. Write a fn called calculateAvg that takes an array of numbers as input and returns the avg of those numbers. ()
+# 25. Write a fn that returns the longest word in the sentence ()
+
 

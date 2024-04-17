@@ -1,7 +1,5 @@
-
-function calAvg(arr){
-    return arr.reduce((acc, iter) => acc + iter, 0)/arr.length
+function calculateAvg (arr) {
+    let avg =  arr.reduce((acc, iter) => acc + parseInt(iter), 0) / arr?.length;
+    return avg
 }
-
-console.log(calAvg([1,2,3,4,5,6]))
-console.log(calAvg([100,200,300,400,500,600]))
+console.log(calculateAvg([1,2,3,4,5,6]))
