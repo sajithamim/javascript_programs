@@ -40,5 +40,10 @@
 # 23. How to find the missing number in a given integer array of 1 to 10. ()
 # 24. Write a fn called calculateAvg that takes an array of numbers as input and returns the avg of those numbers. ()
 # 25. Write a fn that returns the longest word in the sentence ()
+# 26. Return the counts object containing the counts of each element.
+# 27. Find the median.
+# 28. Write a program to return the number of times the specified character appears.
+# 29. Filter and Find (Find out the person who has salary greater than 60000, Filter out all persons who has salary 50000)
+# 30. Find factorial of a number
 
 
