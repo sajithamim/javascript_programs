@@ -1,4 +1,3 @@
-// Remove duplicates from given array
 const array = [1,2,3,2,8,9,8]
 
 function findDuplicate (array){
