@@ -2,6 +2,8 @@ const arr = [1, 2, 5, 68, 98, 68, 2]
 
 function countDuplicates(arr) {
   return arr.reduce((obj, num) => {
+    console.log(obj);
+    console.log(num)
     if (obj[num] == undefined) {
         obj[num]=1;
         return obj;

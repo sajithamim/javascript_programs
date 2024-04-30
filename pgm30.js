@@ -1,8 +1,8 @@
 const fact = (num) => {
   let factorial = 1;
-  for (i = 1; i <= num; i++) {
-    factorial = factorial * i
+  for(let i=1;i<=num;i++){
+    factorial = factorial * i;
   }
   return factorial
-};
-console.log("Factorial", fact(5));
+}
+console.log(fact(5))

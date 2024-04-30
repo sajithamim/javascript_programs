@@ -1,4 +1,4 @@
-function convertToObj(arr){
-   return arr.reduce((acc, iter, index) => ({...acc, [index]: iter}), {})
+function convertToarr(arr){
+   return arr.reduce((acc,itera, index) => ({...acc, [index]: itera}),{})
 }
-console.log(convertToObj([1,2,3,4]))
+console.log(convertToarr([1,2,3,4,5]))

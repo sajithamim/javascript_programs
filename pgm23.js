@@ -3,9 +3,9 @@ function missingNo(arr) {
   const minValue = Math.min(...arr);
   const maxValue = Math.max(...arr);
   let missArray = [];
-  for (let i = minValue; i <= maxValue; i++) {
-    if (arr.indexOf(i) < 0) {
-      missArray.push(i);
+  for (let i = minValue; i<=maxValue; i++){
+    if(arr.indexOf(i) < 0 ){
+      missArray.push(i)
     }
   }
   return missArray;

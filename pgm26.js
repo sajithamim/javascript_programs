@@ -1,3 +1,4 @@
+// Return the counts object containing the counts of each element.
 let numbers = [1,2,2,3,4,2,5,5,9,5,6,7,6]
 
 let count = {}

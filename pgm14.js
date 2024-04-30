@@ -33,7 +33,7 @@ value_class.class = "X"
 console.log("school is", school)
 console.log("value_class is", value_class)
 
-// Note: Shallow copyy affects only upto first level
+// Note: Shallow copy affects only upto first level
 
 let user_obj = {
     name: 'peter',
