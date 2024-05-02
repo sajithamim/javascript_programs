@@ -46,5 +46,7 @@
 # 29. Filter and Find (Find out the person who has salary greater than 60000, Filter out all persons who has salary 50000)
 # 30. Find factorial of a number    Redo
 # 31. Sort an array using sort fn   Redo
-
+# 32. Find squar root of a number
+# 33. Program to Check whether a String Contains a Substring in Javascript
+# 34. Program to Check whether a String Starts and Ends with Certain Characters in Javascript
 
