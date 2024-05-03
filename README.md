@@ -50,4 +50,4 @@
 # 33. Program to Check whether a String Contains a Substring in Javascript
 # 34. Program to Check whether a String Starts and Ends with Certain Characters in Javascript
 # 35. Reverse each word in the given string
-
+# 36. // Write a function to find out whether the given string is paliandrome or not

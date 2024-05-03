@@ -8,3 +8,4 @@ const paliandrome = (word) => {
 console.log("Paliandrome:", paliandrome("aneena"))
 console.log("Paliandrome:", paliandrome("A man,a plan, a canal"))
 console.log("Paliandrome:", paliandrome("racecar"))
+
