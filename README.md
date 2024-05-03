@@ -49,4 +49,5 @@
 # 32. Find squar root of a number
 # 33. Program to Check whether a String Contains a Substring in Javascript
 # 34. Program to Check whether a String Starts and Ends with Certain Characters in Javascript
+# 35. Reverse each word in the given string
 
