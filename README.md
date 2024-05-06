@@ -50,4 +50,14 @@
 # 33. Program to Check whether a String Contains a Substring in Javascript
 # 34. Program to Check whether a String Starts and Ends with Certain Characters in Javascript
 # 35. Reverse each word in the given string
-# 36. // Write a function to find out whether the given string is paliandrome or not
+# 36. Write a function to find out whether the given string is paliandrome or not
+# 37. How to check if an array is an object or not
+# 38. How to empty an array in JS(Do not reset to a black array and do not run a new loop)
+# 39. How to check if a number is an integer or not
+# 40. Make duplicate of values in array
+# 41. How to reverse a number?
+# 42. Write a js fn that returns a passed string with letters in alphabetical order
+# 43. Writa a JS fn that accepts a str as a parameter and converts the first letter of each word of string in uppercase
+# 44. Write a fn to get the number of occurences of each letter in specified string.
+# 45. Loop an array and all elements of it
+# 46. Loop an array of objects and remove all objects which dont have gender's value male
